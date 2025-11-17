@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Модели и результаты (слишком большие для Git)
+qwen2.5-7b-instruct/
+fine_tuned_model/
+outputs/
+*.pth
+*.bin
+*.safetensors
+
+# Временные файлы
+temp_audio/
+*.tmp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Датасет можно включить (небольшой размер ~10MB)
+# Раскомментируйте если хотите исключить:
+# warhammer_dataset/
+
+# Excel файлы (если есть конфиденциальная информация)
+# *.xlsx
