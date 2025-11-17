@@ -6,8 +6,8 @@
 
 ```bash
 cd /workspace
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/sayonaraman/warhammer-qwen-finetuning.git
+cd warhammer-qwen-finetuning
 chmod +x runpod_quickstart.sh
 ./runpod_quickstart.sh
 ```
