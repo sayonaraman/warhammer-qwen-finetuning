@@ -4,6 +4,9 @@
 
 set -e  # Остановка при ошибке
 
+# ===== ПЕРЕНАПРАВЛЯЕМ КЕШ В /workspace (200TB места!) =====
+export HF_HOME="/workspace/.cache/huggingface"
+
 echo ""
 echo "╔════════════════════════════════════════════════════════╗"
 echo "║  🚀 RunPod QuickStart - Qwen 2.5 7B Fine-tuning      ║"
